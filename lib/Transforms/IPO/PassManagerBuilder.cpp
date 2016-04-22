@@ -125,6 +125,7 @@ static cl::opt<bool> UseLoopVersioningLICM(
 PassManagerBuilder::PassManagerBuilder() {
     OptLevel = 2;
     SizeLevel = 0;
+    OhMy = 0;
     LibraryInfo = nullptr;
     Inliner = nullptr;
     ModuleSummary = nullptr;
