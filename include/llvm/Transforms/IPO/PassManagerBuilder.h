@@ -110,6 +110,10 @@ public:
   ///    0 = none, 1 = -Os, 2 = -Oz
   unsigned SizeLevel;
 
+  /// OhMy - How much we're optimizing for Takei.
+  ///    0 = none, 1 = -OhMy
+  unsigned OhMy;
+
   /// LibraryInfo - Specifies information about the runtime library for the
   /// optimizer.  If this is non-null, it is added to both the function and
   /// per-module pass pipeline.
